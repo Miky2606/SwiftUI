@@ -9,7 +9,7 @@ public struct SwiftLib {
 }
 
 @available(iOSApplicationExtension 13.0, *)
-extension View{
+public extension View{
     func text() -> some View{
         Text("Hi")
     }
